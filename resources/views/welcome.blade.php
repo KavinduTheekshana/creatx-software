@@ -27,8 +27,8 @@
                                 <div class="col-xl-7 col-lg-12 text-right">
                                     <p>We Are CreatX</p>
                                     <h2>We'll Code. <br>We'll Build. <br> You'll Relax.</h2>
-                                    <a href="#" data-target=".donate-options"
-                                        class="scroll-to-target thm-btn dynamic-radius">Start Donating</a>
+                                    <a href="services" data-target=".donate-options"
+                                        class="scroll-to-target thm-btn dynamic-radius">Our Services</a>
                                     <!-- /.thm-btn dynamic-radius -->
                                 </div><!-- /.col-lg-7 text-right -->
                             </div><!-- /.row -->
@@ -43,8 +43,8 @@
                                 <div class="col-xl-8 col-lg-12 text-right">
                                     <p>Modern. Professional. Reliable.</p>
                                     <h2>Strong & <br> Certified <br> IT Solutions</h2>
-                                    <a href="#" data-target=".donate-options"
-                                        class="scroll-to-target thm-btn dynamic-radius">Start Donating</a>
+                                    <a href="about" data-target=".donate-options"
+                                        class="scroll-to-target thm-btn dynamic-radius">About Us</a>
                                     <!-- /.thm-btn dynamic-radius -->
                                 </div><!-- /.col-lg-7 text-right -->
                             </div><!-- /.row -->
@@ -59,8 +59,8 @@
                                 <div class="col-lg-7 text-right">
                                     <p>Next Generation</p>
                                     <h2>High Quality <br> Best Hosting <br> Serivce</h2>
-                                    <a href="#" data-target=".donate-options"
-                                        class="scroll-to-target thm-btn dynamic-radius">Start Donating</a>
+                                    <a href="hosting" data-target=".donate-options"
+                                        class="scroll-to-target thm-btn dynamic-radius">Hosting Services</a>
                                     <!-- /.thm-btn dynamic-radius -->
                                 </div><!-- /.col-lg-7 text-right -->
                             </div><!-- /.row -->
@@ -75,8 +75,8 @@
                                 <div class="col-lg-7 text-right">
                                     <p>CreatX Support Platform</p>
                                     <h2>Smooth <br> Customer <br> Experiences</h2>
-                                    <a href="#" data-target=".donate-options"
-                                        class="scroll-to-target thm-btn dynamic-radius">Start Donating</a>
+                                    <a href="contact" data-target=".donate-options"
+                                        class="scroll-to-target thm-btn dynamic-radius">Contact us</a>
                                     <!-- /.thm-btn dynamic-radius -->
                                 </div><!-- /.col-lg-7 text-right -->
                             </div><!-- /.row -->
@@ -765,7 +765,7 @@
                     </div><!-- /.col-lg-9 -->
                     <div
                         class="col-xl-3 col-lg-4 d-flex justify-content-start justify-content-md-center justify-content-xl-end justify-content-lg-end">
-                        <a href="become-volunteer.html" class="thm-btn dynamic-radius">CreatX Careers</a>
+                        <a href="careers" class="thm-btn dynamic-radius">CreatX Careers</a>
                         <!-- /.thm-btn dynamic-radius -->
                     </div><!-- /.col-lg-3 -->
                 </div><!-- /.row -->

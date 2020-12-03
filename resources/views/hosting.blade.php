@@ -35,7 +35,7 @@
             <div class="col-xl-6">
                 <div class="about-two__content">
                     <div class="block-title">
-                        <p><img src="assets/images/shapes/heart-2-1.png" width="15" alt="">Features</p>
+                        <p><img src="assets/images/shapes/heart-2-1.png" width="30" alt="">Features</p>
                         <h3>Startup to Enterprise, We Have It All!</h3>
                     </div><!-- /.block-title -->
 

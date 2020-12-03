@@ -13,9 +13,7 @@
     <meta name="description" content="Azino Charity HTML Template">
 
     <!-- fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
@@ -25,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/odometer.min.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/main.css">
@@ -44,8 +43,7 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-2">
                             <div class="logo-box">
-                                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-dark.png"
-                                        width="180" alt=""></a>
+                                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-dark.png" width="180" alt=""></a>
                                 <span class="fa fa-bars mobile-nav__toggler"></span>
                             </div><!-- /.logo-box -->
                         </div><!-- /.col-sm-12 -->
@@ -54,26 +52,26 @@
                                 <p>Welcome to CreatX Software - We Build Your Imagination</p>
                                 <div class="main-header__social">
                                     <a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://www.facebook.com/creatxsoftware" aria-label="facebook"><i class="fab fa-facebook-square"></i></a>
+                                    <a href="https://www.facebook.com/creatxsoftware" target="_blank" aria-label="facebook"><i class="fab fa-facebook-square"></i></a>
                                     <a href="#" aria-label="pinterest"><i class="fab fa-pinterest-p"></i></a>
                                     <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
                                 </div><!-- /.main-header__social -->
                             </div><!-- /.main-header__top -->
                             <nav class="main-menu dynamic-radius">
                                 <ul class="main-menu__list">
-                                    <li class="dropdown">
+                                    <li>
                                         <a href="/">Home</a>
                                     </li>
 
-                                    <li class="dropdown">
+                                    <li>
                                         <a href="services">Services</a>
                                     </li>
 
-                                    <li class="dropdown">
+                                    <li>
                                         <a href="projects">Projects</a>
                                     </li>
 
-                                    <li class="dropdown">
+                                    <li>
                                         <a href="hosting">Hosting</a>
                                     </li>
 
@@ -123,7 +121,7 @@
         </header><!-- /.main-header -->
 
 
-		@yield('content')
+        @yield('content')
 
 
         <section class="site-footer">
@@ -133,8 +131,7 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="footer-widget mb-40 footer-widget__about">
                                 <a href="index.html" aria-label="logo image">
-                                    <img src="assets/images/logo-light.png" class="footer-widget__logo" width="180"
-                                        alt="">
+                                    <img src="assets/images/logo-light.png" class="footer-widget__logo" width="180" alt="">
                                 </a>
                                 <p>A smart and professional solution
                                     for all SaaS, software and tech
@@ -150,7 +147,7 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="footer-widget footer-widget__link mb-40">
                                 <h3 class="footer-widget__title">Explore</h3><!-- /.footer-widget__title -->
-                                <ul class="list-unstyled footer-widget__link-list">
+                                <ul class="list-unstyled footer-widget__blog">
                                     <li><a href="/">Home</a></li>
                                     <li><a href="services">Services</a></li>
                                     <li><a href="projects">Projects</a></li>
@@ -162,18 +159,18 @@
                         </div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="footer-widget mb-40 footer-widget__blog">
-                                <h3 class="footer-widget__title">Blog</h3><!-- /.footer-widget__title -->
+                                <h3 class="footer-widget__title">Services</h3><!-- /.footer-widget__title -->
                                 <ul class="list-unstyled footer-widget__blog">
-                                    <li>
-                                        <img src="assets/images/resources/footer-img-1-1.jpg" alt="">
-                                        <p>22 May, 2020</p>
-                                        <h3><a href="news-details.html">You can help the poor in need</a></h3>
-                                    </li>
-                                    <li>
-                                        <img src="assets/images/resources/footer-img-1-2.jpg" alt="">
-                                        <p>22 May, 2020</p>
-                                        <h3><a href="news-details.html">Rise fund for Healthy Food</a></h3>
-                                    </li>
+                                    <li><a href="services">Web Development</a></li>
+                                    <li><a href="services">Mobile Application</a></li>
+                                    <li><a href="services">Enterprise Solutions</a></li>
+                                    <li><a href="services">IOT Solutions</a></li>
+                                    <li><a href="services">UI/UX Design</a></li>
+                                    <li><a href="services">Source Code Recovery</a></li>
+                                    <li><a href="services">Hosting</a></li>
+                                    <li><a href="services">Graphic Design</a></li>
+
+
                                 </ul><!-- /.footer-widget__blog -->
                             </div><!-- /.footer-widget footer-widget__blog -->
                         </div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
@@ -182,18 +179,46 @@
                                 <h3 class="footer-widget__title">Newletter</h3><!-- /.footer-widget__title -->
                                 <p>Signup now to get daily latest news
                                     & updates from us</p>
-                                <form
-                                    data-url="https://xyz.us18.list-manage.com/subscribe/post?u=20e91746ef818cd941998c598&id=cc0ee8140e"
-                                    class="footer-widget__newsletter-form mc-form">
+                                <form action="javascript:void(0)" method="post" id="contact-form" class="footer-widget__newsletter-form mc-form">
                                     <label for="mc-email" class="sr-only">Email Address</label>
-                                    <input type="email" name="EMAIL" id="mc-email" class="dynamic-radius"
-                                        placeholder="Email address">
+                                    <input type="email" name="email" id="email" class="dynamic-radius" placeholder="Email address">
                                     <div class="footer-widget__newsletter-btn-wrap d-flex justify-content-end">
-                                        <button type="submit" class="thm-btn dynamic-radius">Subscribe Now</button>
+                                        <button type="submit" id="submit" name="submit" class="thm-btn dynamic-radius">Subscribe Now</button>
                                     </div><!-- /.footer-widget__newsletter-btn-wrap -->
                                     <!-- /.thm-btn -->
                                 </form><!-- /.footer-widget__newsletter-form -->
-                                <div class="mc-form__response"></div><!-- /.mc-form__response -->
+                                <br>
+                                <div id="progress" class="mc-form__response d-none"><span>Your Email Send Sucessfully.</span></div><!-- /.mc-form__response -->
+                                <div id="progresserror" class="mc-form__response d-none"><span>Error</span></div><!-- /.mc-form__response -->
+
+                                <script type="text/javascript">
+                                    $('#contact-form').on('submit', function(event) {
+                                 
+                                        event.preventDefault();
+                                        email = $('#email').val();
+                                 
+                                        $.ajax({
+                                            url: "/newslettersubmit",
+                                            type: "POST",
+                                            data: {
+                                                "_token": "{{ csrf_token() }}",
+                                                email: email,
+                                            },
+                                            success: function(response) {
+                                                $('#progress').removeClass("d-none");
+                                                $('#progresserror').addClass("d-none");
+                                                $('#email').val('');
+                                            },
+                                            error: function(response) {
+                                                $('#progresserror').removeClass("d-none");
+                                                $('#progress').addClass("d-none");
+                                            }
+                                        });
+                                    });
+                                </script>
+
+
+
                             </div><!-- /.footer-widget footer-widget__newsletter -->
                         </div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
                     </div><!-- /.row -->
@@ -201,12 +226,11 @@
             </div><!-- /.main-footer -->
             <div class="footer-bottom">
                 <div class="container">
-                    <span class="scroll-to-top scroll-to-target" data-target="html"><i
-                            class="far fa-angle-up"></i></span>
+                    <span class="scroll-to-top scroll-to-target" data-target="html"><i class="far fa-angle-up"></i></span>
                     <p>© Copyright 2020 by creatxsoftware.com</p>
                     <div class="footer-social">
                         <a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="facebook"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.facebook.com/creatxsoftware" target="_blank" aria-label="facebook"><i class="fab fa-facebook-square"></i></a>
                         <a href="#" aria-label="pinterest"><i class="fab fa-pinterest-p"></i></a>
                         <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
                     </div><!-- /.footer-social -->
@@ -224,8 +248,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="far fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="101"
-                        alt="" /></a>
+                <a href="/" aria-label="logo image"><img src="assets/images/logo-light.png" width="121" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -234,26 +257,21 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="azino-icon-email"></i>
-                    <a href="mailto:needhelp@azino.com">needhelp@azino.com</a>
+                    <a href="contact@creatxsoftware.com">contact@creatxsoftware.com</a>
                 </li>
                 <li>
                     <i class="azino-icon-telephone"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:666-888-0000">071 542 1423</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
                 <div class="mobile-nav__language">
                     <img src="assets/images/resources/flag-1-1.jpg" alt="">
-                    <label class="sr-only" for="language-select">select language</label>
-                    <!-- /#language-select.sr-only -->
-                    <select class="selectpicker" id="language-select">
-                        <option value="english">English</option>
-                        <option value="arabic">Arabic</option>
-                    </select>
+
                 </div><!-- /.mobile-nav__language -->
                 <div class="mobile-nav__social">
                     <a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.facebook.com/creatxsoftware" aria-label="facebook"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.facebook.com/creatxsoftware" target="_blank" aria-label="facebook"><i class="fab fa-facebook-square"></i></a>
                     <a href="#" aria-label="pinterest"><i class="fab fa-pinterest-p"></i></a>
                     <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
                 </div><!-- /.mobile-nav__social -->
@@ -302,5 +320,3 @@
 </body>
 
 </html>
-
-

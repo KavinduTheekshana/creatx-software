@@ -18,7 +18,7 @@
                     <div class="col-lg-5">
                         <div class="contact-page__content mb-40">
                             <div class="block-title">
-                                <p><img src="assets/images/shapes/heart-2-1.png" width="15" alt="">Contact With Us</p>
+                                <p><img src="assets/images/shapes/heart-2-1.png" width="30" alt="">Contact With Us</p>
                                 <h3>Feel free to write us <br> a message.</h3>
                             </div><!-- /.block-title -->
                             <!-- <ul class="list-unstyled ul-list-one">
@@ -35,7 +35,8 @@
                         </div><!-- /.contact-page__content -->
                     </div><!-- /.col-lg-5 -->
                     <div class="col-lg-7">
-                        <form action="assets/inc/sendemail.php" class="contact-form-validated contact-page__form form-one mb-40">
+                        <form action="javascript:void(0)" method="post" id="contact-form" class="contact-form-validated contact-page__form form-one mb-40">
+                     
                             <div class="form-group">
                                 <div class="form-control">
                                     <label for="name" class="sr-only">Name</label>
@@ -58,12 +59,53 @@
                                     <textarea name="message" placeholder="Write a Message" id="message"></textarea>
                                 </div><!-- /.form-control -->
                                 <div class="form-control form-control-full">
-                                    <button type="submit" class="thm-btn dynamic-radius">Submit Message</button>
+                                    <button type="submit" id="submit" name="submit" class="thm-btn dynamic-radius">Submit Message</button>
                                     <!-- /.thm-btn dynamic-radius -->
                                 </div><!-- /.form-control -->
+                                <div class="d-none" id="progress" >	<span>Your Message Send Sucessfully.</span></div>
+                                <div class="d-none" id="progresserror" ><span>Your Detais Are Not Correct.</span></div>
                             </div><!-- /.form-group -->
                         </form><!-- /.contact-page__form -->
-                        <div class="result"></div><!-- /.result -->
+
+                        <script type="text/javascript">
+				$('#contact-form').on('submit', function(event) {
+	
+					event.preventDefault();
+					name = $('#name').val();
+					email = $('#email').val();
+					phone = $('#phone').val();
+					subject = $('#subject').val();
+					message = $('#message').val();
+					$.ajax({
+						url: "/contactform",
+						type: "POST",
+						data: {
+							"_token": "{{ csrf_token() }}",
+							name: name,
+							email: email,
+							phone: phone,
+							subject: subject,
+							message: message,
+						},
+						success: function(response) {
+							$('#progress').removeClass("d-none");
+							$('#progresserror').addClass("d-none");
+							$('#name').val('');
+							$('#email').val('');
+							$('#phone').val('');
+							$('#subject').val('');
+							$('#message').val('');
+						},
+						error: function(response) {
+							$('#progresserror').removeClass("d-none");
+							$('#progress').addClass("d-none");
+						}
+					});
+				});
+            </script>
+            
+
+                        <!-- <div class="result"></div> -->
                     </div><!-- /.col-lg-7 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->

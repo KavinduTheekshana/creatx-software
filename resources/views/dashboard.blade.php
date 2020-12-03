@@ -6,10 +6,8 @@
     </x-slot>
 
     <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-                <x-jet-welcome />
-            </div>
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8" style="padding: 300px; display: flex; justify-content: center;">
+        <a href="/" aria-label="logo image"><img src="{{asset('assets/images/logo-dark.png')}}" width="500" alt=""></a>
         </div>
     </div>
 </x-app-layout>
