@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Capa_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 480 480"
+	 style="enable-background:new 0 0 480 480;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#232323;}
+	.st1{fill:#FCAD30;}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="480" width="480" x="0" y="0"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g>
+	<g>
+		<path class="st0" d="M456,144c13.3,0,24-10.7,24-24V24c0-13.3-10.7-24-24-24H24C10.7,0,0,10.7,0,24v96c0,13.3,10.7,24,24,24h24v24
+			H24c-13.3,0-24,10.7-24,24v96c0,13.3,10.7,24,24,24h24v24H24c-13.3,0-24,10.7-24,24v96c0,13.3,10.7,24,24,24h432
+			c13.3,0,24-10.7,24-24v-96c0-13.3-10.7-24-24-24h-24v-24h24c13.3,0,24-10.7,24-24v-96c0-13.3-10.7-24-24-24h-24v-24H456z M456,352
+			c4.4,0,8,3.6,8,8v96c0,4.4-3.6,8-8,8H24c-4.4,0-8-3.6-8-8v-96c0-4.4,3.6-8,8-8H456z M64,336v-24h16v24H64z M96,336v-24h288v24H96z
+			 M400,336v-24h16v24H400z M456,184c4.4,0,8,3.6,8,8v96c0,4.4-3.6,8-8,8H24c-4.4,0-8-3.6-8-8v-96c0-4.4,3.6-8,8-8H456z M64,168v-24
+			h16v24H64z M96,168v-24h288v24H96z M400,168v-24h16v24H400z M24,128c-4.4,0-8-3.6-8-8V24c0-4.4,3.6-8,8-8h432c4.4,0,8,3.6,8,8v96
+			c0,4.4-3.6,8-8,8H24z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st0" d="M256,64H94.5c-4.4-12.5-18.1-19-30.6-14.6S44.9,67.5,49.3,80s18.1,19,30.6,14.6c6.8-2.4,12.2-7.8,14.6-14.6
+			H256c4.4,0,8-3.6,8-8S260.4,64,256,64z M72,80c-4.4,0-8-3.6-8-8s3.6-8,8-8s8,3.6,8,8S76.4,80,72,80z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="352" y="32" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="384" y="32" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="416" y="32" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="320" y="32" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="288" y="32" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="352" y="64" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="384" y="64" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="416" y="64" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="320" y="64" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="288" y="64" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="352" y="96" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="384" y="96" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="416" y="96" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="320" y="96" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="288" y="96" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st0" d="M256,232H94.5c-4.4-12.5-18.1-19-30.6-14.6s-19,18.1-14.6,30.6c4.4,12.5,18.1,19,30.6,14.6
+			c6.8-2.4,12.2-7.8,14.6-14.6H256c4.4,0,8-3.6,8-8S260.4,232,256,232z M72,248c-4.4,0-8-3.6-8-8s3.6-8,8-8s8,3.6,8,8
+			S76.4,248,72,248z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="352" y="200" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="384" y="200" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="416" y="200" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="320" y="200" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="288" y="200" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="352" y="232" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="384" y="232" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="416" y="232" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="320" y="232" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="288" y="232" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="352" y="264" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="384" y="264" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="416" y="264" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="320" y="264" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="288" y="264" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st0" d="M256,400H94.5c-4.4-12.5-18.1-19-30.6-14.6s-19,18.1-14.6,30.6s18.1,19,30.6,14.6c6.8-2.4,12.2-7.8,14.6-14.6
+			H256c4.4,0,8-3.6,8-8S260.4,400,256,400z M72,416c-4.4,0-8-3.6-8-8s3.6-8,8-8s8,3.6,8,8S76.4,416,72,416z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="352" y="368" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="384" y="368" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="416" y="368" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="320" y="368" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="288" y="368" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="352" y="400" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="384" y="400" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="416" y="400" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="320" y="400" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="288" y="400" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="352" y="432" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="384" y="432" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="416" y="432" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="320" y="432" class="st1" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="288" y="432" class="st1" width="16" height="16"/>
+	</g>
+</g>
+</svg>
