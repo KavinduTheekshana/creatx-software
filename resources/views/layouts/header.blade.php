@@ -95,7 +95,7 @@
                                 <ul class="list-unstyled main-header__info-list">
                                     <li>
                                         <i class="azino-icon-email"></i>
-                                        <a href="contact@creatxsoftware.com">contact@creatxsoftware.com</a>
+                                        <a href="info@creatxsoftware.com">info@creatxsoftware.com</a>
                                     </li>
                                     <li>
                                         <i class="azino-icon-telephone"></i>
@@ -257,7 +257,7 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="azino-icon-email"></i>
-                    <a href="contact@creatxsoftware.com">contact@creatxsoftware.com</a>
+                    <a href="info@creatxsoftware.com">info@creatxsoftware.com</a>
                 </li>
                 <li>
                     <i class="azino-icon-telephone"></i>
