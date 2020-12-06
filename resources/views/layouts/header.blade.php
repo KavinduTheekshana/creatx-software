@@ -43,7 +43,7 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-2">
                             <div class="logo-box">
-                                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-dark.png" width="180" alt=""></a>
+                                <a href="/" aria-label="logo image"><img src="assets/images/logo-dark.png" width="180" alt=""></a>
                                 <span class="fa fa-bars mobile-nav__toggler"></span>
                             </div><!-- /.logo-box -->
                         </div><!-- /.col-sm-12 -->
@@ -120,6 +120,15 @@
             </div><!-- /.container -->
         </header><!-- /.main-header -->
 
+        <div class="stricky-header stricked-menu">
+    <div class="container">
+        <div class="logo-box">
+            <a href="/"><img src="assets/images/logo-light.png" width="180" alt=""></a>
+        </div><!-- /.logo-box -->
+        <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+    </div><!-- /.container -->
+</div><!-- /.stricky-header -->
+
 
         @yield('content')
 
@@ -130,7 +139,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="footer-widget mb-40 footer-widget__about">
-                                <a href="index.html" aria-label="logo image">
+                                <a href="/" aria-label="logo image">
                                     <img src="assets/images/logo-light.png" class="footer-widget__logo" width="180" alt="">
                                 </a>
                                 <p>A smart and professional solution

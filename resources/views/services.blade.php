@@ -2,14 +2,7 @@
 @extends('layouts.header')
 
 @section('content') 
-  <div class="stricky-header stricked-menu">
-            <div class="container">
-                <div class="logo-box">
-                    <a href="index.html"><img src="assets/images/logo-light.png" width="101" alt=""></a>
-                </div><!-- /.logo-box -->
-                <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
-            </div><!-- /.container -->
-        </div><!-- /.stricky-header -->
+
         <section class="page-header">
             <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/page-header-1-3.jpg);">
             </div>
